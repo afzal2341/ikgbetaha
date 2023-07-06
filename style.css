@@ -38,10 +38,6 @@ header{
     display: flex;
     justify-content:space-around;
     align-items: center;
-
-    /* flex-wrap: wrap; */
-
-
 }
 .atag{
     text-decoration: none;
@@ -49,11 +45,6 @@ header{
 }
 
 .notes{
-    /* background-image: url("resources/backg2.jpg");
-    background-size:auto;
-    z-index: -1; */
-    /* position:fixed; */
-
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
@@ -124,24 +115,3 @@ img{
 .pbox{
     transform: scale(0.8);
 }
-
-/* .chapter{
-    margin-top: 70px;
-} */
-
-/* .chemistry{
-
-     background-image: url(chemistryimg2.jfif);
-    background-size:cover;
-}
-
-.physics{
-    background-image: url(physicsimg.jfif);
-    background-size:cover;
-}
-
-.biology{
-    
-    background-image: url(biologyimg.jfif);
-    background-size:cover;
-} */
