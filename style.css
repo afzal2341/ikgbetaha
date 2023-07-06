@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+.backgroundset img{
+    
+    /* height: 100vh; */
+    margin: 0;
+    width:110%;
+    height: 100%;
+    z-index: -1;
+    position:fixed;
+
+
+}
+header{
+    z-index:1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0;
+}
+.name{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(3, 124, 114);
+    color: aliceblue;
+    font-size: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.navbar2{
+    height: 5vh;
+    background-color:rgb(6, 55, 6);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    /* flex-wrap: wrap; */
+
+
+}
+.atag{
+    text-decoration: none;
+    color: white;
+}
+
+.notes{
+    /* background-image: url("resources/backg2.jpg");
+    background-size:auto;
+    z-index: -1; */
+    /* position:fixed; */
+
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin-top:60px;
+    background-color: hsl(180, 24%, 77%);
+    width: 30vw;
+    height:50vw;
+    align-items: center;
+
+}
+
+.sub{
+    font-size: large;
+    height: 10vw;
+    text-align:center;
+
+}
+img{
+    width: 30vw;
+    height:40vw;
+}
+
+@media (max-width:600px){
+    .box{
+        margin-top:60px;
+        margin-bottom: 30px;
+        background-color: rgb(193, 229, 229);
+        width: 90vw;
+        height:120vw;
+        align-items: center;
+    
+    }
+    
+    img{
+        /* margin: 5vw; */
+        width: 86vw;
+        height:106vw;
+        margin:2vw;
+    }
+    
+    .sub{
+        font-size: 9vw;
+        height: 10vw;
+        text-align:center;
+        /* transform: translateY(5vw); */
+    
+    }
+}
+
+.footer1{
+
+    margin-top: 60px; 
+    height: 60px;
+    background-color: teal;
+
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+}
+
+.pbox{
+    transform: scale(0.8);
+}
+
+/* .chapter{
+    margin-top: 70px;
+} */
+
+/* .chemistry{
+
+     background-image: url(chemistryimg2.jfif);
+    background-size:cover;
+}
+
+.physics{
+    background-image: url(physicsimg.jfif);
+    background-size:cover;
+}
+
+.biology{
+    
+    background-image: url(biologyimg.jfif);
+    background-size:cover;
+} */
