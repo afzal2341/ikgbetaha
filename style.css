@@ -41,10 +41,6 @@ header{
     display: flex;
     justify-content:space-around;
     align-items: center;
-
-    /* flex-wrap: wrap; */
-
-
 }
 .atag{
     text-decoration: none;
@@ -52,11 +48,6 @@ header{
 }
 
 .notes{
-    /* background-image: url("resources/backg2.jpg");
-    background-size:auto;
-    z-index: -1; */
-    /* position:fixed; */
-
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
@@ -97,7 +88,6 @@ img{
     }
     
     img{
-        /* margin: 5vw; */
         width: 86vw;
         height:106vw;
         margin:2vw;
@@ -107,7 +97,6 @@ img{
         font-size: 9vw;
         height: 10vw;
         text-align:center;
-        /* transform: translateY(5vw); */
     
     }
 }
@@ -138,14 +127,12 @@ img{
 }
 
 .pbox img{
-    /* margin: 5vw; */
     width: 41vw;
     height:50vw;
     margin:2vw;
 }
 .box:hover{
     transform: scale(1);
-    
     background-color: hsl(165, 88%, 44%);
 }
 
