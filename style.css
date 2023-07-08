@@ -31,6 +31,9 @@ header{
     justify-content: center;
     align-items: center;
     font-family: cursive;
+
+    
+    animation: Myname 2s linear 0s normal;
 }
 .navbar2{
     height: 5vh;
@@ -38,6 +41,10 @@ header{
     display: flex;
     justify-content:space-around;
     align-items: center;
+
+    /* flex-wrap: wrap; */
+
+
 }
 .atag{
     text-decoration: none;
@@ -45,6 +52,11 @@ header{
 }
 
 .notes{
+    /* background-image: url("resources/backg2.jpg");
+    background-size:auto;
+    z-index: -1; */
+    /* position:fixed; */
+
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
@@ -52,17 +64,20 @@ header{
 
 .box{
     margin-top:60px;
+    margin-bottom: 0;
     background-color: hsl(180, 24%, 77%);
     width: 30vw;
     height:50vw;
     align-items: center;
+    transform: scale(0.9);
 
 }
 
 .sub{
-    font-size: large;
+    font-size: 7vw;
     height: 10vw;
     text-align:center;
+    
 
 }
 img{
@@ -113,5 +128,34 @@ img{
 }
 
 .pbox{
-    transform: scale(0.8);
+        background-color: rgb(193, 229, 229);
+        width: 45vw;
+        height:60vw;
+        align-items: center;
+        margin-bottom: 0;
+        transform: scale(0.9);
+        
+}
+
+.pbox img{
+    /* margin: 5vw; */
+    width: 41vw;
+    height:50vw;
+    margin:2vw;
+}
+.box:hover{
+    transform: scale(1);
+    
+    background-color: hsl(165, 88%, 44%);
+}
+
+.pdf{
+    font-size: 5vw;
+    height: 5vw;
+    text-align:center;
+}
+
+@keyframes Myname{
+    from{font-size: 2vh;}
+    to{font-size: 4.5vh;}
 }
