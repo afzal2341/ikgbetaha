@@ -32,8 +32,7 @@ header{
     align-items: center;
     font-family: cursive;
 
-    
-    animation: Myname 2s linear 0s normal;
+    animation: Myname 0.5s linear 0.3s normal;
 }
 .navbar2{
     height: 5vh;
