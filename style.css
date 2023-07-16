@@ -42,6 +42,17 @@ header{
     justify-content:space-around;
     align-items: center;
 }
+
+.navbar3{
+    height:7vh;
+    background-color: rgba(7, 42, 39, 0.821);
+    color: aliceblue;
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
 .atag{
     text-decoration: none;
     color: white;
