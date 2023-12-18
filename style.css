@@ -92,14 +92,11 @@ header{
 
 }
 
-
 .resultBox{
     margin: 10px 10px 10px 10px;
-    background-color: #fff;
+    background-color: white;
     text-align: center;
 }
-
-
 
 .sub{
     font-size: 7vw;
