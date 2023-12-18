@@ -92,6 +92,15 @@ header{
 
 }
 
+
+.resultBox{
+    margin: 10px 10px 10px 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
 .sub{
     font-size: 7vw;
     height: 10vw;
