@@ -1,205 +1,65 @@
 *{
     margin: 0;
-    border: border-box;
-}
-
-.backgroundset img{
-    
-    /* height: 100vh; */
-    margin: 0;
-    width:110%;
-    height: 100%;
-    z-index: -1;
-    position:fixed;
-
-
-}
-header{
-    z-index:1;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    margin: 0;
-}
-
-/* footer{
-    z-index:1;
-    position: sticky;
-    bottom:0;
-    width: 100%;
-    margin: 0;
-} */
-.name{
-    width: 100%;
-    height: 12vh;
-    background-color: rgb(3, 124, 114);
-    color: aliceblue;
-    font-size: 4.5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: cursive;
-
-    
-    animation: Myname 0.5s linear 0.3s normal;
-}
-.navbar2{
-    height: 5vh;
-    background-color:rgb(6, 55, 6);
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-
-    /* flex-wrap: wrap; */
-
-
-}
-
-.navbar3{
-    height:7vh;
-    background-color: rgba(7, 42, 39, 0.821);
-    color: aliceblue;
-    font-size: 2.5vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: cursive;
-}
-.atag{
-    text-decoration: none;
-    color: white;
-}
-
-.notes{
-    /* background-image: url("resources/backg2.jpg");
-    background-size:auto;
-    z-index: -1; */
-    /* position:fixed; */
-
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-}
-
-.box{
-    margin-top:60px;
-    margin-bottom: 0;
-    background-color: hsl(180, 24%, 77%);
-    width: 30vw;
-    height:50vw;
-    align-items: center;
-    transform: scale(0.9);
-
-}
-
-.resultBox{
-    margin: 10px 10px 10px 10px;
-    background-color: white;
+    padding: 0;
     text-align: center;
 }
 
-.sub{
-    font-size: 7vw;
-    height: 10vw;
-    text-align:center;
-    
-
-}
-img{
-    width: 30vw;
-    height:40vw;
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5 rem;
+    line-height: 5rem; /*adjust text at centre vertically */
 }
 
-@media (max-width:600px){
-    .box{
-        margin-top:60px;
-        margin-bottom: 30px;
-        background-color: rgb(193, 229, 229);
-        width: 90vw;
-        height:120vw;
-        align-items: center;
-    
-    }
-    
-    img{
-        /* margin: 5vw; */
-        width: 86vw;
-        height:106vw;
-        margin:2vw;
-    }
-    
-    .sub{
-        font-size: 9vw;
-        height: 10vw;
-        text-align:center;
-        /* transform: translateY(5vw); */
-    
-    }
-}
-
-.footer1{
-
-    margin-top: 60px; 
-    height: 60px;
-    background-color: teal;
-
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
     display: flex;
-    justify-content:space-around;
-    align-items:center;
-}
-.a1{
-    text-decoration: none;
-    color: white;
-}
-
-.pbox{
-        background-color: rgb(193, 229, 229);
-        width: 45vw;
-        height:60vw;
-        align-items: center;
-        margin-bottom: 0;
-        transform: scale(0.9);
-        
-}
-
-.pbox img{
-    /* margin: 5vw; */
-    width: 41vw;
-    height:50vw;
-    margin:2vw;
-}
-.box:hover{
-    transform: scale(1);
-    
-    background-color: hsl(165, 88%, 44%);
-}
-
-.pdf{
-    font-size: 5vw;
-    height: 5vw;
-    text-align:center;
-}
-
-@keyframes Myname{
-    from{font-size: 2vh;}
-    to{font-size: 4.5vh;}
-}
-
-.subjectiveacidbasesalt{
-    display:flex;
     justify-content: center;
     align-items: center;
 }
 
-.ContentHeading{
-    height: 10vh;
-    width: 100%;
-    background-color:transparent;
-    color: aliceblue;
-    font-size: 3vh;
+.choice:hover{
+/* opacity: 0.5; */
+background-color: hwb(240 59% 38%);
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /*fit image into frame*/ 
+    border-radius: 50%;
+}
+
+.choices{
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 5rem; /* to increase gap or space between options*/
+    margin-top: 5rem;    
+}
+
+.score-board{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2rem;
+     margin-top: 3rem;
+     gap: 5rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+
 
 }
