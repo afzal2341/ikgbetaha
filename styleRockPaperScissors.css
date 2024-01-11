@@ -45,12 +45,12 @@ img{
      justify-content: center;
      align-items: center;
      font-size: 2rem;
-     margin-top: 3rem;
+     margin-top: 5rem;
      gap: 5rem;
 }
 
 .msg-container{
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 #msg{
@@ -59,7 +59,14 @@ img{
     font-size: 2rem;
     display: inline;
     padding: 1rem;
+    margin-bottom: 1rem;
     border-radius: 1rem;
+}
 
-
+.comp-pick img, .your-pick img{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover; /*fit image into frame*/ 
+    border-radius: 30%;
+    opacity: 85%;
 }
