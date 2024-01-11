@@ -12,8 +12,8 @@ h1{
 }
 
 .choice{
-    height: 170px;
-    width: 170px;
+    height: 30vw;
+    width: 30vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -26,8 +26,8 @@ background-color: hwb(240 59% 38%);
 }
 
 img{
-    height: 150px;
-    width: 150px;
+    height: 25vw;
+    width: 25vw;
     object-fit: cover; /*fit image into frame*/ 
     border-radius: 50%;
 }
@@ -36,7 +36,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem; /* to increase gap or space between options*/
+    gap: 1rem; /* to increase gap or space between options*/
     margin-top: 5rem;    
 }
 
