@@ -13,6 +13,8 @@
     position:fixed;
 }
 .ikgBackground1 img{
+    
+    /* height: 100vh; */
     margin: 0;
     width:110%;
     height: 100%;
