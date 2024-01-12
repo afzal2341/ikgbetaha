@@ -11,9 +11,17 @@
     height: 100%;
     z-index: -1;
     position:fixed;
-
-
 }
+.ikgBackground1 img{
+    margin: 0;
+    width:110%;
+    height: 100%;
+    z-index: -1;
+    position:fixed;
+    object-fit: cover; /*fit image into frame*/ 
+}
+    
+
 header{
     z-index:1;
     position: sticky;
