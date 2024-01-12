@@ -12,6 +12,7 @@
     z-index: -1;
     position:fixed;
 }
+
 .ikgBackground1 img{
     
     /* height: 100vh; */
@@ -21,8 +22,7 @@
     z-index: -1;
     position:fixed;
     object-fit: cover; /*fit image into frame*/ 
-}
-    
+}    
 
 header{
     z-index:1;
