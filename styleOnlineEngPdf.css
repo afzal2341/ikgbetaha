@@ -1,0 +1,35 @@
+.innerDiv{
+    background: none;
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    border-radius: 1rem;
+    padding: 2px;
+    margin: 20px;
+}
+
+.innerDiv img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 0;
+}
+
+.outerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.headingPdf{
+    color: hwb(0 100% 0%);
+    background-color: #1176e1;
+}
+
+
+.innerDiv:hover{
+    transform: scale(1); 
+    background-color: hsl(282, 24%, 81%);
+    opacity: 0.8;
+}
